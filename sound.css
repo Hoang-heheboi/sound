@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: white;
+    zoom: 2;
+}
+#myTitle {
+    text-align: center;
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+mark {
+    background-color: rgb(212, 16, 16);
+    color: white;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(67, 67, 67);
+}
+#myTitle2 {
+    text-align: center;
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+.platform {
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+    box-shadow: #222 0px 0px 10px;
+    border-radius: 8px;
+    text-align: center;
+    top: 20px;
+    position: relative;
+    box-shadow: 0 4px 24px white;
+}
+.platform button {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 8px;;
+    border-radius: 8px;
+    border: none;
+    background: red;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#GetOutw {
+    color: gray;
+    top: 20px;
+}
+.platform button:hover {
+    background: darkred;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+mark {
+    background-color: rgb(212, 16, 16);
+    color: white;
+    animation: flash-shadow 1s infinite alternate;
+    border-radius: 10px;
+}
+@keyframes flash-shadow {
+    from {
+        box-shadow: 0 0 50px rgb(255, 49, 49);
+    }
+    to {
+        box-shadow: 0 0 20px black;
+    }
+}
+#Version {
+    text-align: center;
+    color: white;
+}
