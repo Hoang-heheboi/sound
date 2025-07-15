@@ -31,6 +31,10 @@ hr {
 a {
     text-decoration: none;
 }
+.platforms-row {
+    display: flex;
+    gap: 30px;
+}
 .platform {
     width: 80px;
     height: 100px;
@@ -77,6 +81,12 @@ mark {
     }
 }
 #Version {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     color: white;
+    width: max-content;
+    z-index: 100;
 }
