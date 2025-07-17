@@ -55,7 +55,8 @@ a {
     border: none;
     background: red;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background-color 0.2s;
+    border: none;
 }
 #GetOutw {
     color: gray;
@@ -81,12 +82,49 @@ mark {
     }
 }
 #Version {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+text-align: center;
+}
+#back {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+#back:hover {
+    transform: scale(1.1);
+}
+.platform2 {
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+    box-shadow: #222 0px 0px 10px;
+    border-radius: 8px;
     text-align: center;
-    color: white;
-    width: max-content;
-    z-index: 100;
+    top: 20px;
+    position: relative;
+    box-shadow: 0 4px 24px white;
+}
+.platform2 button {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    background: red;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: none;
+}
+.platforms-row2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.platform2 button:hover {
+    background: darkred;
+    cursor: pointer;
+    border: 2px solid gray;
 }

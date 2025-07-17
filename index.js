@@ -33,3 +33,13 @@ document.getElementById("button7").onclick = function() {
     audio7.currentTime = 0;
     audio7.play();
 }
+const audio8 = new Audio('IIlumination.mp3');
+document.getElementById("button8").onclick = function() {
+    audio8.currentTime = 0;
+    audio8.play();
+}
+const audio9 = new Audio('fart.mp3');
+document.getElementById("button9").onclick = function() {
+    audio9.currentTime = 0;
+    audio9.play();
+}
