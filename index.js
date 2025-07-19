@@ -43,3 +43,107 @@ document.getElementById("button9").onclick = function() {
     audio9.currentTime = 0;
     audio9.play();
 }
+
+
+ const afbeelding = document.getElementById("myHeart");
+
+afbeelding.addEventListener("click", function () {
+  if (afbeelding.src.includes("heart.png")) {
+    afbeelding.src = "heartFull.png";
+  } else {
+    afbeelding.src = "heart.png";
+  }
+});
+
+const afbeelding1 = document.getElementById("myHeart1");
+
+afbeelding1.addEventListener("click", function () {
+  if (afbeelding1.src.includes("heart.png")) {
+    afbeelding1.src = "heartFull.png";
+  } else {
+    afbeelding1.src = "heart.png";
+  }
+});
+
+
+const afbeelding2 = document.getElementById("myHeart2");
+
+afbeelding2.addEventListener("click", function () {
+  if (afbeelding2.src.includes("heart.png")) {
+    afbeelding2.src = "heartFull.png";
+  } else {
+    afbeelding2.src = "heart.png";
+  }
+});
+
+ const afbeelding3 = document.getElementById("myHeart3");
+
+afbeelding3.addEventListener("click", function () {
+  if (afbeelding3.src.includes("heart.png")) {
+    afbeelding3.src = "heartFull.png";
+  } else {
+    afbeelding3.src = "heart.png";
+  }
+});
+ const afbeelding4 = document.getElementById("myHeart4");
+
+afbeelding4.addEventListener("click", function () {
+  if (afbeelding4.src.includes("heart.png")) {
+    afbeelding4.src = "heartFull.png";
+  } else {
+    afbeelding4.src = "heart.png";
+  }
+});
+ const afbeelding5 = document.getElementById("myHeart5");
+
+afbeelding5.addEventListener("click", function () {
+  if (afbeelding5.src.includes("heart.png")) {
+    afbeelding5.src = "heartFull.png";
+  } else {
+    afbeelding5.src = "heart.png";
+  }
+});
+ const afbeelding6 = document.getElementById("myHeart6");
+
+afbeelding6.addEventListener("click", function () {
+  if (afbeelding6.src.includes("heart.png")) {
+    afbeelding6.src = "heartFull.png";
+  } else {
+    afbeelding6.src = "heart.png";
+  }
+});
+ const afbeelding7 = document.getElementById("myHeart7");
+
+afbeelding7.addEventListener("click", function () {
+  if (afbeelding7.src.includes("heart.png")) {
+    afbeelding7.src = "heartFull.png";
+  } else {
+    afbeelding7.src = "heart.png";
+  }
+});
+ const afbeelding8 = document.getElementById("myHeart8");
+
+afbeelding8.addEventListener("click", function () {
+  if (afbeelding8.src.includes("heart.png")) {
+    afbeelding8.src = "heartFull.png";
+  } else {
+    afbeelding8.src = "heart.png";
+  }
+});
+
+getElementById('myHeart').addEventListener('click', () => {
+    const targetWindow = document.getElementById('iframeID').contentWindow;
+    targetWindow.postMessage('triggerAction', 'https://hoang-heheboi.github.io/Hehe-memes/');
+});
+
+
+window.addEventListener('message', (event) => {
+    if (event.origin !== 'https://hoang-heheboi.github.io/sound/') return;
+    if (event.data === 'triggerAction') {
+   
+    }
+});
+
+ 
+
+

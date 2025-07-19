@@ -50,7 +50,7 @@ a {
     width: 80%;
     height: 40px;
     padding: 10px;
-    margin-top: 8px;;
+    margin-top: 8px;
     border-radius: 8px;
     border: none;
     background: red;
@@ -128,3 +128,42 @@ text-align: center;
     cursor: pointer;
     border: 2px solid gray;
 }
+#fart {
+    position: relative;
+    bottom: 20px;
+} 
+#GetOut {
+    position: relative;
+    bottom: 20px;
+} 
+#VineBoom {
+    position: relative;
+    bottom: 20px;
+}
+#Rizz {
+    position: relative;
+    bottom: 20px;
+} 
+#WompWomp {
+    position: relative;
+    bottom: 20px;
+}
+#sadViolin {
+    position: relative;
+    bottom: 20px;
+}
+#Bruh {
+    position: relative;
+    bottom: 20px;
+}
+#AirHorn {
+    position: relative;
+    bottom: 20px;
+}
+
+#Il {
+    position: relative;
+    bottom: 20px;
+}
+
+
